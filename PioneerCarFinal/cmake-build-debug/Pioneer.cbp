@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Pioneer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/PioneerCarFinal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pioneer.elf">
+				<Option output="D:/PioneerCarFinal/cmake-build-debug/Pioneer.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/PioneerCarFinal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="D:/PioneerCarFinal/Core/Inc"/>
+					<Add directory="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/PioneerCarFinal/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/PioneerCarFinal/Drivers/CMSIS/Include"/>
+					<Add directory="D:/PioneerCarFinal/app"/>
+					<Add directory="D:/PioneerCarFinal/Lib"/>
+					<Add directory="D:/PioneerCarFinal/HARDWARE"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pioneer.elf"/>
+					<CompileFile command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pioneer.elf/fast">
+				<Option output="D:/PioneerCarFinal/cmake-build-debug/Pioneer.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/PioneerCarFinal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="D:/PioneerCarFinal/Core/Inc"/>
+					<Add directory="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/PioneerCarFinal/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/PioneerCarFinal/Drivers/CMSIS/Include"/>
+					<Add directory="D:/PioneerCarFinal/app"/>
+					<Add directory="D:/PioneerCarFinal/Lib"/>
+					<Add directory="D:/PioneerCarFinal/HARDWARE"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\armtoolchainsecond\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pioneer.elf/fast"/>
+					<CompileFile command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/PioneerCarFinal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/PioneerCarFinal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Clion/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PioneerCarFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/PioneerCarFinal/Core/.DS_Store">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/FreeRTOSConfig.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/can.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/delay.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/dma.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/gpio.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/i2c.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/main.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/spi.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/stm32f1xx_hal_conf.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/stm32f1xx_it.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/sys.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/tim.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/Backup/usart.h.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/can.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/delay.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/dma.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/gpio.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/i2c.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/main.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/spi.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/stm32f1xx_it.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/sys.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/tim.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Inc/usart.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/can.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/delay.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/dma.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/freertos.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/gpio.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/i2c.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/main.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/spi.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/stm32f1xx_hal_msp.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/stm32f1xx_hal_timebase_tim.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/stm32f1xx_it.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/sys.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/syscalls.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/sysmem.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/system_stm32f1xx.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/tim.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/Backup/usart.c.bak">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/can.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/delay.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/dma.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/gpio.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/i2c.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/main.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/spi.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/stm32f1xx_it.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/sys.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/syscalls.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/sysmem.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/system_stm32f1xx.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/tim.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Src/usart.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Core/Startup/startup_stm32f103rctx.s">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/CMSIS/LICENSE.txt">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_i2c.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/HARDWARE/LED/led.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/HARDWARE/LED/led.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/HARDWARE/PS2/pstwo.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/HARDWARE/PS2/pstwo.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Lib/GLOBAL.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Lib/PCA9685.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Lib/PCA9685.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Lib/UART.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/Lib/UART.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/STM32F103RCTX_FLASH.ld">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/app/Car.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/app/Car.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/app/Display.c">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/app/Display.h">
+			<Option target="Pioneer.elf"/>
+		</Unit>
+		<Unit filename="D:/PioneerCarFinal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
